@@ -4,9 +4,9 @@ author: Leah Hanson
 _Leah Hanson is a proud alumni of Hacker School and loves helping people learn about Julia. She blogs at [http://blog.leahhanson.us/](http://blog.leahhanson.us/) and tweets at [\@astrieanna](https://twitter.com/astrieanna)._
 </markdown>
 ## Introduction
-
+## 导论
 You may be familiar with a fancy IDE that draws red underlines under parts of your code that don't compile. You may have run a linter on your code to check for formatting or style problems. You might run your compiler in super-picky mode with all the warnings turned on. All of these tools are applications of static analysis.
-
+你也许会很熟悉你一些IDE会在你代码里无法编译的部分标出红色的下划线；你也许也用过代码风格检查工具来检查你的代码是否符合规范；你也许会打开所有的警告提示，用极为严格挑剔的模式来编译你的代码，以上这些所有的工具的功能都是静态分析的应用。
 Static analysis is a way to check for problems in your code without running it. "Static" means at compile time rather than at run time, and "analysis" means we're analyzing the code. When you've used the tools I mentioned above, it may have felt like magic. But those tools are just programs&mdash;they are made of source code that was written by a person, a programmer like you. In this chapter, we're going to talk about how to implement a couple of static analysis checks. In order to do this, we need to know what we want the check to do and how we want to do it.
 
 We can get more specific about what you need to know by describing the process as three stages:
